@@ -1,11 +1,9 @@
-import { StyleSheet, Text, View } from 'react-native'
+import LoginScreen from '@/screens/auth/login/login.screen'
+
 
 export default function Login() {
   return (
-    <View>
-      <Text>Login</Text>
-    </View>
+    <LoginScreen />
   )
 }
 
-const styles = StyleSheet.create({})
